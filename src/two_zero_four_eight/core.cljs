@@ -42,7 +42,7 @@
 
 (defn board []
   [:div {:class "main"}
-   [:h1 "Welcome"]
+   [:h1 "2048"]
    [:div {:class       "board"
           :tabIndex    1
           :autofocus   1
