@@ -1,5 +1,5 @@
 #app {
-    height: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,4 +21,15 @@
 .board {
     display: flex;
     flex-direction: column;
+    outline: none;
+}
+.game-over {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
 }
